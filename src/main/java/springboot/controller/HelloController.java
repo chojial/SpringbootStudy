@@ -14,7 +14,7 @@ public class HelloController {
 	public String Hello(Model model) throws Exception {
 		model.addAttribute("now", DateFormat.getDateInstance().format(new Date()));
 		if(true) {
-			throw new Exception("原来这就是异常啊！！！");
+			throw new Exception("原来这就是异常啊!!!!!！！！");
 		}
 		return "hello";
 	}
